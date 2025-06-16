@@ -801,3 +801,7 @@ img {
 .modal-btn:focus {
   background-color: #404bbf;
 }
+
+.footer-form-container {
+  margin-left: auto;
+}
