@@ -33,10 +33,25 @@ img {
 }
 
 .container {
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .logo {
@@ -75,7 +90,8 @@ img {
   position: relative;
 }
 
-.link-nav.current::after {
+
+.link-nav::after {
   content: "";
   position: absolute;
   left: 0;
@@ -84,6 +100,15 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
+
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-nav:hover::after,
+.link-nav:focus::after,
+.link-nav.current::after {
+  opacity: 1;
 }
 
 .nav-list {
@@ -114,11 +139,7 @@ img {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
-.link-nav:hover,
-.link-nav:focus,
-.link-nav.current {
-  color: #404bbf;
-}
+
 
 .addresses {
   font-style: normal;
@@ -564,8 +585,10 @@ img {
   background-color: rgba(46, 47, 66, 0.4);
   z-index: 999;
 
-  opacity: 0;
+  opacity: 01;
+
   visibility: hidden;
+
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1)
