@@ -395,7 +395,9 @@ nav span {
   padding: 72px 52px;
   min-width: 320px;
   width: 100%;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob-tabl.img/hero-img-mob-min.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
+    url(../images/mob/mob-people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -403,7 +405,9 @@ nav span {
 
 @media screen and (min-resolution: 2x) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob-tabl-1x-2x.img/hero-img-mob-2x-min.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/mob/mob-people-office-x2.jpg);
   }
 }
 
@@ -446,7 +450,9 @@ nav span {
   .hero {
     min-width: 768px;
     padding: 123px 136px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob-tabl.img/hero-img-tablet-min.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/tab/tab-people-office.jpg);
 
   }
 
@@ -459,7 +465,9 @@ nav span {
 
   @media screen and (min-resolution: 2x) {
     .hero {
-      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mob-tabl-1x-2x.img/hero-img-tabl-2x-min.jpg);
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../images/tab/tab-people-office-x2.jpg);
     }
   }
 }
@@ -468,7 +476,9 @@ nav span {
   .hero {
     min-width: 1440px;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-background-min.jpg)
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/people-office.jpg)
   }
 
   .hero-title {
@@ -478,7 +488,9 @@ nav span {
 
 @media screen and (min-resolution: 2x) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-img-desk-2x-min.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/desk/people-office-x2.jpg);
   }
 }
 
